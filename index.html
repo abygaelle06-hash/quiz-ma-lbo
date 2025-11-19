@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz M&A et LBO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz M&A et LBO</h1>
+            <p class="subtitle">Testez vos connaissances en Fusions-Acquisitions et Leveraged Buy-Out</p>
+        </header>
+
+        <div id="quiz-container">
+            <div id="question-section">
+                <div id="progress">
+                    <span id="current-question">1</span> / <span id="total-questions">15</span>
+                </div>
+                <h2 id="question-text"></h2>
+                <div id="options-container"></div>
+                <button id="next-btn" class="hidden">Question suivante</button>
+            </div>
+
+            <div id="result-section" class="hidden">
+                <h2>Résultats</h2>
+                <div id="score-display">
+                    <div class="score-circle">
+                        <span id="score-percentage">0%</span>
+                    </div>
+                    <p id="score-text"></p>
+                </div>
+                <div id="feedback"></div>
+                <button id="restart-btn">Recommencer le quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
